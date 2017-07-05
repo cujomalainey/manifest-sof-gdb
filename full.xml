@@ -266,7 +266,9 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/tlsdate"
            name="chromiumos/third_party/tlsdate" />
   <project path="src/overlays"
-           name="chromiumos/overlays/board-overlays"
+           name="cujomalainey/board-overlays"
+           remote="github"
+           revision="sof-import"
            groups="minilayout" />
   <project path="src/scripts" name="chromiumos/platform/crosutils"
            groups="minilayout,buildtools,labtools" />
@@ -302,8 +304,9 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/kernel"
            revision="refs/heads/chromeos-3.18" />
   <project path="src/third_party/kernel/v4.4"
-           name="chromiumos/third_party/kernel"
-           revision="refs/heads/chromeos-4.4" />
+           name="cujomalainey/cros-kernel"
+           revision="sof-import"
+           remote="github" />
   <project path="src/third_party/gcc"
            name="chromiumos/third_party/gcc" />
   <project path="src/third_party/u-boot/files"
