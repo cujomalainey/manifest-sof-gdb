@@ -4,6 +4,10 @@ repo <https://chrome-internal.googlesource.com/chromeos/manifest-internal>.
 Automated sync between manifest-internal and manifest is not yet set up.
 ***
 
+# What is this repo?
+This is an alternative manifest for the ChromeOS repo tool. This swaps out
+dependency repos required to support the Sound Open Firmware.
+
 # Repo Groups
 Repo is the tool that we use to manage our local checkouts. It parses the
 manifest specified by the `default.xml` file. The name of the manifest can be
