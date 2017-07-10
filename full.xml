@@ -305,7 +305,7 @@ Your sources have been sync'd successfully.
            revision="refs/heads/chromeos-3.18" />
   <project path="src/third_party/kernel/v4.4"
            name="cujomalainey/cros-kernel"
-           revision="sof-import"
+           revision="cujo/sof-4.12"
            remote="github" />
   <project path="src/third_party/gcc"
            name="chromiumos/third_party/gcc" />
